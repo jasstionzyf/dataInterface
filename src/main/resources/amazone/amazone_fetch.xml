@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<amazoneFetchInfoList>
+    <amazoneFetchInfos>
+        <amazoneFetchInfo>
+            <asinRegex>/dp/(.*?)/</asinRegex>
+            <fetchedPageNumber>1</fetchedPageNumber>
+            <pageNumberSpace>1</pageNumberSpace>
+            <paginationTemplate>http://www.amazon.cn/s/ref=sr_pg_2?rh=n%3A888465051%2Ck%3A%E7%AC%94%E8%AE%B0%E6%9C%AC%2Cn%3A106200071&amp;page={}&amp;bbn=888465051&amp;keywords=%E7%AC%94%E8%AE%B0%E6%9C%AC&amp;ie=UTF8&amp;qid=1365736404</paginationTemplate>
+            <myCategoryId>112</myCategoryId>
+        </amazoneFetchInfo> 
+        
+         
+       <!--  <amazoneFetchInfo>
+            <asinRegex>/dp/(.*?)/</asinRegex>
+            <fetchedPageNumber>400</fetchedPageNumber>
+            <pageNumberSpace>1</pageNumberSpace>
+            <paginationTemplate>http://www.amazon.cn/s/ref=sr_pg_3?rh=n%3A888465051%2Cn%3A888474051%2Cn%3A106571071&amp;page={}&amp;bbn=106571071&amp;ie=UTF8&amp;qid=1366098370</paginationTemplate>
+            <myCategoryId>179</myCategoryId>
+        </amazoneFetchInfo> -->
+    </amazoneFetchInfos>
+</amazoneFetchInfoList>

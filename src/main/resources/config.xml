@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+<urlForCommitUpdatedPrice>http://manager.taoban.com:8081/taoban-spider-server/priceUpdate?action=commitUpdatedPrice</urlForCommitUpdatedPrice>
+<urlForGetItemInfo>http://manager.taoban.com:8081/taoban-spider-server/priceUpdate?action=getItemInfo</urlForGetItemInfo>
+<requestInterval>*/1 * * * *</requestInterval>
+<!-- 两分钟 -->
+<taskRequestTimeOut>120000</taskRequestTimeOut>
+<!-- 三分钟 -->
+<commitTaskResultTimeOut>180000</commitTaskResultTimeOut>
+<yihaodian>
+<!-- 用于提取产品url -->
+<urlIndex>http://union.yihaodian.com/api/productInfo/yihaodian/index.xml</urlIndex>
+<!-- 产品url前缀 -->
+<productUrlPre>http://union.yihaodian.com/api/productInfo/yihaodian/product/</productUrlPre>
+<productIdXpath>//products/product</productIdXpath>
+<productXpath>//product</productXpath>
+
+</yihaodian>
+<tianmall>
+<appKey>21431371</appKey>
+<appSecret>ed3ec7d1737b3110650d718deee2e4a5</appSecret>
+
+</tianmall>
+<tmallSp>
+<updatedPriority>7200</updatedPriority>
+<!-- three -->
+<updatedPriority1>259200</updatedPriority1>
+</tmallSp>
+</config>

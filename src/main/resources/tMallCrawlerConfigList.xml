@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tMallCrawlerConfigList>
+      <tMallCrawlerConfig>
+       <!-- 表示包邮 特价商品-->
+        <catalogId>-100</catalogId>
+        <itemIdRegex>data-id="(.*?)"</itemIdRegex>
+        <keywords>女装</keywords>
+        <!-- 9.9元、10-29元、30-50元 -->
+        <paginationRule>
+        
+                        
+                        
+                        <paginationTemplate>http://list.tmall.com/search_product.htm?spm=a220m.1000858.1000724.7.REq7xj&amp;area_code=110000&amp;search_condition=16&amp;vmarket=0&amp;zk_type=0&amp;post_fee=-1&amp;style=g&amp;sort=d&amp;end_price={}&amp;start_price={}&amp;n=60&amp;s=0&amp;cat=50025135#J_Filter</paginationTemplate>
+                        <parameters>
+                        <parameter>
+<parameterIndex>1</parameterIndex>
+<parameterType>String</parameterType>
+<parameterValue>9.9,29,50</parameterValue>
+                            </parameter>
+                             <parameter>
+<parameterIndex>2</parameterIndex>
+<parameterType>String</parameterType>
+<parameterValue>9,10,30</parameterValue>
+                            </parameter>
+                        </parameters>
+                    </paginationRule>
+        <pageTotalNumberRegex>ui-page-s-len"&gt;(.*?)&lt;/b&gt;</pageTotalNumberRegex>
+        <pageUrlTemplate>http://list.tmall.com/search_product.htm?fromF5=&amp;search_condition=16&amp;totalPage=2&amp;cat=50025135&amp;sort=d&amp;style=g&amp;vmarket=0&amp;start_price={}&amp;end_price={}&amp;post_fee=-1&amp;zk_type=0&amp;area_code=110000&amp;jumpto={}</pageUrlTemplate>
+
+    </tMallCrawlerConfig>
+</tMallCrawlerConfigList>

@@ -2,7 +2,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.taoban</groupId>
+  <groupId>com.yufei</groupId>
   <artifactId>DataInterface</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
@@ -15,13 +15,11 @@
     <slf4j.version>1.6.2</slf4j.version>
 		<log4j.version>1.2.14</log4j.version>
 		<commonlogging.version>1.1.1</commonlogging.version>
-		<project.outputDirectory>F:\runner</project.outputDirectory>
 		<project.name>DataInterface-1.0.0</project.name>
-		    <dependencies.dependency.taobaosdk.systemPath>D:\\files\\work\\libary\\taobao\\taobao-sdk-java-auto_1362549785354-20130321.jar</dependencies.dependency.taobaosdk.systemPath>
+		    <dependencies.dependency.taobaosdk.systemPath>/home/jasstion/data/libary/taobao-sdk-java-auto_1362549785354-20130321.jar</dependencies.dependency.taobaosdk.systemPath>
 		<project.spring.version>3.1.2.RELEASE</project.spring.version>
   		<spring.data.mongo.version>1.0.2.RELEASE</spring.data.mongo.version>
-    <dependencies.dependency.swt.systemPath>F:\\work\\runner\\lib\\swt.jar</dependencies.dependency.swt.systemPath>
-  <project.outputDirectory>F:\work\runner_linux_64\</project.outputDirectory>
+    <dependencies.dependency.swt.systemPath>/home/jasstion/data/libary/swt.jar</dependencies.dependency.swt.systemPath>
   </properties>
 
   <dependencies>
@@ -39,7 +37,7 @@
   <groupId>com.yufei</groupId>
   <artifactId>IExtractor</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-</dependency>
+</dependency> 
             
   	<dependency>
 			<groupId>commons-logging</groupId>
@@ -88,7 +86,16 @@
 			<version>20030211.134440</version>
 		</dependency>
 		
-
+<dependency>
+  <groupId>com.yufei</groupId>
+  <artifactId>pfw</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+       </dependency>     
+<dependency>
+  <groupId>com.yufei</groupId>
+  <artifactId>dataget</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+       </dependency>     
 <dependency>
   <groupId>com.yufei</groupId>
   <artifactId>utils</artifactId>
